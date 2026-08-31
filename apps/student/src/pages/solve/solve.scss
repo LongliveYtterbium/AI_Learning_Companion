@@ -1,0 +1,84 @@
+.solve-page {
+  min-height: 100vh;
+  padding: 32rpx;
+  box-sizing: border-box;
+}
+
+.intro-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+  padding: 36rpx;
+  border-radius: 28rpx;
+  background: #eaf1ff;
+}
+
+.card-kicker {
+  color: #356ae6;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.card-title {
+  color: #172033;
+  font-size: 38rpx;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.card-copy,
+.privacy-note {
+  color: #68738b;
+  font-size: 26rpx;
+  line-height: 1.65;
+}
+
+.upload-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 500rpx;
+  margin-top: 32rpx;
+  overflow: hidden;
+  border: 3rpx dashed #b8c9ee;
+  border-radius: 28rpx;
+  background: #ffffff;
+}
+
+.camera-mark {
+  margin-bottom: 24rpx;
+  color: #356ae6;
+  font-size: 72rpx;
+}
+
+.upload-title {
+  color: #26324a;
+  font-size: 31rpx;
+  font-weight: 700;
+}
+
+.upload-copy {
+  margin-top: 12rpx;
+  color: #8a94a8;
+  font-size: 25rpx;
+}
+
+.question-preview {
+  width: 100%;
+  height: 500rpx;
+}
+
+.upload-button {
+  margin-top: 32rpx;
+  border-radius: 16rpx;
+  background: #356ae6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.privacy-note {
+  display: block;
+  margin: 24rpx 12rpx;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+@import "./miniprogram_npm/@rojer/katex-mini/index.wxss";
+page { background: #f7f9fc; color: #182338; font-size: 30rpx; }
+button { margin: 0; padding: 0; line-height: normal; }
+button::after { border: none; }
+.page { min-height: 100vh; padding: 48rpx 32rpx; box-sizing: border-box; }
+.eyebrow,.tag,.label { color: #5d75a8; font-size: 24rpx; font-weight: 600; }
+.title { display: block; margin: 16rpx 0 18rpx; font-size: 48rpx; line-height: 1.3; font-weight: 700; }
+.copy,.muted { display: block; color: #64748b; font-size: 28rpx; line-height: 1.65; }
+.primary,.secondary { margin-top: 32rpx; border-radius: 20rpx; padding: 28rpx; color: #fff; background: #3867e8; font-size: 30rpx; font-weight: 600; }
+.secondary { background: #eef3ff; color: #3867e8; }
+.section { margin-top: 50rpx; font-size: 30rpx; font-weight: 700; }
+.card { margin-top: 20rpx; padding: 28rpx; border-radius: 24rpx; background: #fff; box-shadow: 0 8rpx 28rpx rgba(46,78,130,.08); }
+.card-title { display:block; font-size: 32rpx; font-weight:700; }.card-copy { display:block; margin-top:12rpx; color:#64748b; font-size:26rpx; }
+.score { float:right; color:#3867e8; font-size:44rpx; font-weight:700; }
+.upload { margin-top: 38rpx; padding: 92rpx 28rpx; border: 3rpx dashed #b9c9ef; border-radius: 24rpx; background:#fff; text-align:center; }
+.upload-title { display:block; margin:16rpx 0; font-size:32rpx; font-weight:700; }.preview { width:100%; max-height:430rpx; }
+.textarea,.input { width:100%; margin-top:18rpx; padding:24rpx; box-sizing:border-box; border-radius:18rpx; background:#f4f7fc; font-size:30rpx; }
+.textarea { min-height:180rpx; }.tabs { display:flex; gap:20rpx; margin:28rpx 0; }.tab { padding:16rpx 8rpx; color:#64748b; }.active { color:#3867e8; border-bottom:5rpx solid #3867e8; font-weight:700; }
+.step { margin-top:20rpx; padding:24rpx; border-radius:20rpx; background:#fff; }.step-name { display:block; font-weight:700; }.result { margin-top:28rpx; color:#16794a; font-weight:700; }
+.formula { white-space:pre-wrap; word-break:break-word; font-family:"Times New Roman", "PingFang SC", serif; }
+.confirm-preview { display:block; width:100%; height:420rpx; margin-top:18rpx; border-radius:16rpx; background:#f4f7fc; }
+.thinking-card { margin-top:24rpx; padding:30rpx; border-radius:24rpx; background:#edf3ff; text-align:center; }
+.spinner { width:38rpx; height:38rpx; margin:0 auto 16rpx; border:6rpx solid #c7d7ff; border-top-color:#3867e8; border-radius:50%; animation:spin 1s linear infinite; }
+.thinking-title,.thinking-copy,.thinking-time { display:block; }.thinking-title { color:#1f4fc8; font-weight:700; }.thinking-copy { margin-top:10rpx; color:#526d9d; font-size:26rpx; }.thinking-time { margin-top:12rpx; color:#3867e8; font-size:28rpx; font-weight:600; }
+@keyframes spin { from { transform:rotate(0deg); } to { transform:rotate(360deg); } }

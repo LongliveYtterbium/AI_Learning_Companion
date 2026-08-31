@@ -1,0 +1,1 @@
+Page({data:{imagePath:''},choose(){wx.chooseImage({count:1,sizeType:['compressed'],sourceType:['album','camera'],success:r=>this.setData({imagePath:r.tempFilePaths[0]}),fail:()=>{}})},next(){if(!this.data.imagePath)return wx.showToast({title:'请先选择题目图片',icon:'none'});wx.setStorageSync('questionImagePath',this.data.imagePath);wx.navigateTo({url:'/pages/confirm/confirm'})}})

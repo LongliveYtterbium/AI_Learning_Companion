@@ -1,0 +1,8 @@
+{
+  "name": "ai-learning-miniprogram-runtime",
+  "private": true,
+  "dependencies": {
+    "@rojer/katex-mini": "^1.3.4",
+    "katex": "^0.16.36"
+  }
+}

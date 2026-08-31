@@ -1,0 +1,17 @@
+packages:
+  - apps/*
+  - packages/*
+
+# Taro 的小程序编译依赖这些已固定版本的原生/构建脚本。
+onlyBuiltDependencies:
+  - '@swc/core'
+  - '@tarojs/binding'
+  - '@tarojs/cli'
+  - esbuild
+  - swiper
+allowBuilds:
+  '@swc/core': true
+  '@tarojs/binding': true
+  '@tarojs/cli': true
+  esbuild: true
+  swiper: true

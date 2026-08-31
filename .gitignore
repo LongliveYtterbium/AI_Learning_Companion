@@ -1,0 +1,32 @@
+node_modules/
+.pnpm-store/
+dist/
+build/
+.cache/
+.swc/
+.DS_Store
+
+# Local secrets
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# Lockfiles: keep only the workspace pnpm lockfile
+**/package-lock.json
+**/yarn.lock
+**/npm-shrinkwrap.json
+
+# Local data, generated indexes and user uploads
+data/
+
+# Source-material archives and extraction workspace
+rawmaterial/_extracted/
+rawmaterial/*.zip
+rawmaterial/**/*.zip
+
+# Mini Program build artifacts
+apps/student/dist/
+apps/student/.temp/
+apps/student/npm/
+apps/student/miniprogram/miniprogram_npm/

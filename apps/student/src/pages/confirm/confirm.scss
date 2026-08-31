@@ -1,0 +1,96 @@
+.confirm-page {
+  min-height: 100vh;
+  padding: 40rpx 32rpx;
+  box-sizing: border-box;
+}
+
+.step-label {
+  color: #3d6ed8;
+  font-size: 25rpx;
+  font-weight: 600;
+}
+
+.heading {
+  display: block;
+  margin-top: 18rpx;
+  color: #172033;
+  font-size: 42rpx;
+  font-weight: 700;
+}
+
+.subheading {
+  display: block;
+  margin-top: 18rpx;
+  color: #6c768c;
+  font-size: 27rpx;
+  line-height: 1.65;
+}
+
+.question-card,
+.confidence-card {
+  margin-top: 36rpx;
+  padding: 30rpx;
+  border-radius: 24rpx;
+  background: #ffffff;
+  box-shadow: 0 10rpx 28rpx rgba(38, 61, 102, 0.07);
+}
+
+.card-label {
+  display: block;
+  margin-bottom: 18rpx;
+  color: #4f5b71;
+  font-size: 25rpx;
+  font-weight: 600;
+}
+
+.question-editor {
+  min-height: 240rpx;
+  color: #172033;
+  font-size: 34rpx;
+  line-height: 1.6;
+}
+
+.confidence-card {
+  display: flex;
+  gap: 20rpx;
+  align-items: flex-start;
+  background: #eef9f1;
+  box-shadow: none;
+}
+
+.confidence-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 50%;
+  background: #35a568;
+  color: #ffffff;
+  font-size: 26rpx;
+}
+
+.confidence-title,
+.confidence-copy {
+  display: block;
+}
+
+.confidence-title {
+  color: #226342;
+  font-size: 28rpx;
+  font-weight: 700;
+}
+
+.confidence-copy {
+  margin-top: 8rpx;
+  color: #53806a;
+  font-size: 24rpx;
+}
+
+.next-button {
+  margin-top: 44rpx;
+  border-radius: 16rpx;
+  background: #356ae6;
+  color: #ffffff;
+  font-weight: 600;
+}

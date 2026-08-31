@@ -1,0 +1,148 @@
+.practice-page {
+  min-height: 100vh;
+  padding: 40rpx 32rpx;
+  box-sizing: border-box;
+}
+
+.practice-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+
+.header-label {
+  color: #3d6ed8;
+  font-size: 25rpx;
+  font-weight: 600;
+}
+
+.header-title {
+  color: #172033;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.header-tag {
+  align-self: flex-start;
+  padding: 8rpx 16rpx;
+  border-radius: 999rpx;
+  background: #e9f0ff;
+  color: #356ae6;
+  font-size: 23rpx;
+}
+
+.exercise-card {
+  display: flex;
+  flex-direction: column;
+  gap: 22rpx;
+  margin-top: 38rpx;
+  padding: 36rpx;
+  border-radius: 28rpx;
+  background: #ffffff;
+  box-shadow: 0 14rpx 34rpx rgba(37, 61, 104, 0.08);
+}
+
+.exercise-number,
+.input-label {
+  color: #71809a;
+  font-size: 25rpx;
+  font-weight: 600;
+}
+
+.exercise-question {
+  color: #172033;
+  font-size: 40rpx;
+  font-weight: 700;
+}
+
+.hint {
+  padding: 20rpx;
+  border-radius: 16rpx;
+  background: #fff7e9;
+  color: #96620b;
+  font-size: 26rpx;
+  line-height: 1.6;
+}
+
+.answer-area {
+  margin-top: 36rpx;
+}
+
+.answer-input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-top: 16rpx;
+  padding: 26rpx;
+  border: 2rpx solid #d8dfed;
+  border-radius: 16rpx;
+  background: #ffffff;
+  color: #172033;
+  font-size: 30rpx;
+}
+
+.check-button,
+.home-button,
+.retry-button {
+  margin-top: 28rpx;
+  border-radius: 16rpx;
+  background: #356ae6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.result-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18rpx;
+  margin-top: 36rpx;
+  padding: 40rpx 32rpx;
+  border-radius: 28rpx;
+  text-align: center;
+}
+
+.result-card.correct {
+  background: #eaf9ef;
+}
+
+.result-card.review {
+  background: #fff7e9;
+}
+
+.result-mark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  background: #35a568;
+  color: #ffffff;
+  font-size: 42rpx;
+  font-weight: 700;
+}
+
+.review .result-mark {
+  background: #de8c1e;
+}
+
+.result-title {
+  color: #1c5638;
+  font-size: 34rpx;
+  font-weight: 700;
+}
+
+.review .result-title {
+  color: #8e5a07;
+}
+
+.result-copy {
+  color: #4f6e5b;
+  font-size: 27rpx;
+  line-height: 1.7;
+}
+
+.review .result-copy {
+  color: #856c41;
+}

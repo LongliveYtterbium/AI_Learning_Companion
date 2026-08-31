@@ -1,0 +1,17 @@
+{
+  "name": "ai-learning-companion",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev:student": "pnpm --filter @ai-learning/student dev:weapp",
+    "dev:web": "pnpm --filter @ai-learning/student dev:h5",
+    "dev:api": "pnpm --filter @ai-learning/api dev",
+    "db:up": "docker compose -f infra/docker-compose.yml up -d",
+    "db:down": "docker compose -f infra/docker-compose.yml down",
+    "validate:bank": "node data/question-bank/validate.mjs"
+  }
+}

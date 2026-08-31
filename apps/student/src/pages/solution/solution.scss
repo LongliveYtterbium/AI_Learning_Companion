@@ -1,0 +1,147 @@
+.solution-page {
+  min-height: 100vh;
+  padding: 28rpx 32rpx 48rpx;
+  box-sizing: border-box;
+}
+
+.question-summary {
+  display: flex;
+  flex-direction: column;
+  gap: 14rpx;
+  padding: 32rpx;
+  border-radius: 24rpx;
+  background: #ffffff;
+}
+
+.summary-label,
+.answer-label {
+  color: #65718a;
+  font-size: 24rpx;
+  font-weight: 600;
+}
+
+.summary-question {
+  color: #172033;
+  font-size: 35rpx;
+  font-weight: 700;
+}
+
+.knowledge-tag {
+  align-self: flex-start;
+  padding: 8rpx 16rpx;
+  border-radius: 999rpx;
+  background: #e9f0ff;
+  color: #356ae6;
+  font-size: 23rpx;
+}
+
+.tabs {
+  display: flex;
+  gap: 42rpx;
+  margin: 36rpx 0 24rpx;
+  border-bottom: 2rpx solid #e7ebf2;
+}
+
+.tab {
+  padding: 0 4rpx 18rpx;
+  color: #7b8599;
+  font-size: 28rpx;
+}
+
+.tab.active {
+  border-bottom: 5rpx solid #356ae6;
+  color: #356ae6;
+  font-weight: 700;
+}
+
+.answer-card,
+.tip-card {
+  padding: 36rpx;
+  border-radius: 24rpx;
+  background: #eef4ff;
+}
+
+.answer-text {
+  display: block;
+  margin-top: 16rpx;
+  color: #1e4ebd;
+  font-size: 46rpx;
+  font-weight: 700;
+}
+
+.latex-source {
+  display: block;
+  margin-top: 20rpx;
+  color: #7181a0;
+  font-size: 23rpx;
+}
+
+.analysis-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20rpx;
+}
+
+.step-card {
+  display: flex;
+  gap: 20rpx;
+  padding: 28rpx;
+  border-radius: 22rpx;
+  background: #ffffff;
+}
+
+.step-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  width: 42rpx;
+  height: 42rpx;
+  border-radius: 50%;
+  background: #356ae6;
+  color: #ffffff;
+  font-size: 24rpx;
+}
+
+.step-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10rpx;
+}
+
+.step-title {
+  color: #172033;
+  font-size: 29rpx;
+  font-weight: 700;
+}
+
+.step-copy,
+.tip-copy {
+  color: #59657a;
+  font-size: 27rpx;
+  line-height: 1.7;
+}
+
+.tip-title {
+  display: block;
+  margin-bottom: 14rpx;
+  color: #a95a00;
+  font-size: 31rpx;
+  font-weight: 700;
+}
+
+.practice-button {
+  margin-top: 44rpx;
+  border-radius: 16rpx;
+  background: #356ae6;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.feedback-link {
+  display: block;
+  margin-top: 28rpx;
+  color: #7080a0;
+  font-size: 25rpx;
+  text-align: center;
+}
